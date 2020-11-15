@@ -1,0 +1,86 @@
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.g {
+    background-color: green;
+    margin-right: 60px;
+
+}
+
+.r {
+    background-color:red;
+    position: static;
+
+}
+
+.y {
+    background-color:yellow;
+    margin-right: 60px;
+ 
+}
+
+.b {
+    background-color:blue;
+    
+}
+
+/* .row {
+    padding: 8% 0;
+} */
+
+
+.main-div {
+    text-align: center;
+    padding:2% 15%;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    background-color: indigo;
+    margin: 0;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    border: 15px solid black;
+    display: inline-block;
+    padding: 5% 5%;
+}
+
+.btn:active {
+    box-shadow:0 0 15px 3px white;  
+}
+
+
+@keyframes divSize {
+    from {width: 100px; height: 100px;}
+    to {width: 90px; height: 90px;}
+} 
+
+.btn2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    border: 15px solid black;
+    display: inline-block;
+    animation-name: divSize;
+    animation-duration: 0.1s; 
+}
+
+h1 {
+    font-family: 'Turret Road', cursive;
+    color:#fff;
+}
+
+
+
+
+
